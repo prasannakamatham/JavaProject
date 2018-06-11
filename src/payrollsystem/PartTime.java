@@ -10,5 +10,25 @@ package payrollsystem;
  * @author macstudent
  */
 public class PartTime {
+    private double rate;
+    private int hoursWorked;
+
+    public double getRate() {
+        return rate;
+    }
+
+    public void setRate(double rate) {
+        this.rate = rate;
+    }
+
+    public int getHoursWorked() {
+        return hoursWorked;
+    }
+
+    public void setHoursWorked(int hoursWorked) {
+        this.hoursWorked = hoursWorked;
+    }
     
-}
+    }
+
+
