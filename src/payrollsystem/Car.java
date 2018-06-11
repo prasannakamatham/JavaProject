@@ -36,6 +36,7 @@ public class Car {
 
     public void setColor(String Color) {
         this.Color = Color;
+        
     }
     
 }
