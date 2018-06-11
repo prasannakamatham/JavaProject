@@ -10,5 +10,10 @@ package payrollsystem;
  * @author macstudent
  */
 public class FixedBasedPartTime {
+    private double FixedAmount;
+    public double calcEarnings() {
+        double ear = getRate() * getHoursWorked();
+        return ear;
+    }
     
 }
