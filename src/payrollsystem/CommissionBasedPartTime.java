@@ -10,5 +10,12 @@ package payrollsystem;
  * @author macstudent
  */
 public class CommissionBasedPartTime {
+    private int commissionPercent;
     
+    public double calcEarnings() {
+        double ear = getRate() * getgetHoursWorked();
+        double commission = ear*(commissionPercent/100);
+        return ear+commission;
+        
+    }
 }
