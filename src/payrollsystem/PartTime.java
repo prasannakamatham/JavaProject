@@ -9,26 +9,34 @@ package payrollsystem;
  *
  * @author macstudent
  */
-public class PartTime {
-    private double rate;
-    private int hoursWorked;
+public abstract class PartTime extends Employee implements IPrintable {
+    
+    private double Rate;
+    private int HoursWorked;
+    
 
     public double getRate() {
-        return rate;
+        return Rate;
     }
 
-    public void setRate(double rate) {
-        this.rate = rate;
+    public void setRate(double Rate) {
+        this.Rate = Rate;
     }
 
     public int getHoursWorked() {
-        return hoursWorked;
+        return HoursWorked;
     }
 
-    public void setHoursWorked(int hoursWorked) {
-        this.hoursWorked = hoursWorked;
+    public void setHoursWorked(int HoursWorked) {
+        this.HoursWorked = HoursWorked;
     }
     
+    public void settype()
+    {
+        
     }
+
+    
+}
 
 
