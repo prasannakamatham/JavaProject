@@ -11,4 +11,43 @@ package payrollsystem;
  */
 public class Motorcycle {
     
+    private String Make;
+    private String Speed;
+    private String Gear;
+    private String color;
+
+    public String getMake() {
+        return Make;
+    }
+
+    public void setMake(String Make) {
+        this.Make = Make;
+    }
+
+    public String getSpeed() {
+        return Speed;
+    }
+
+    public void setSpeed(String Speed) {
+        this.Speed = Speed;
+    }
+
+    public String getGear() {
+        return Gear;
+    }
+
+    public void setGear(String Gear) {
+        this.Gear = Gear;
+    }
+
+    public String getColor() {
+        return color;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
+    
+    
+    
 }
