@@ -9,13 +9,19 @@ package payrollsystem;
  *
  * @author macstudent
  */
-public class CommissionBasedPartTime {
+public class CommissionBasedPartTime extends PartTime implements IPrintable {
     private int commissionPercent;
     
     public double calcEarnings() {
-        double ear = getRate() * getgetHoursWorked();
+        double ear = getRate() * getHoursWorked();
         double commission = ear*(commissionPercent/100);
         return ear+commission;
+        return (getRate() * getHoursWorked())
+        
+    }
+    
+    @Override
+    public void printMyData() {
         
     }
 }
