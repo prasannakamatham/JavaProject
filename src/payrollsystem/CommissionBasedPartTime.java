@@ -13,11 +13,9 @@ public class CommissionBasedPartTime extends PartTime implements IPrintable {
     private int commissionPercent;
     
     public double calcEarnings() {
-        double ear = getRate() * getHoursWorked();
+        double ear = super.getRate() * super.getHoursWorked();
         double commission = ear*(commissionPercent/100);
-        return ear+commission;
-        return (getRate() * getHoursWorked())
-        
+        return ear+commission;       
     }
     
     @Override
