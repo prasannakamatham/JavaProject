@@ -48,6 +48,12 @@ public class Motorcycle {
         this.color = color;
     }
     
-    
+     public void printMyData() {
+      
+       System.out.println("motorcycle speed is:" + getSpeed());
+       System.out.println("motorcycle make is :" + getMake());
+       System.out.println("motorcycle gear is :" + getGear());
+       System.out.println("motorcycle color is :" + getColor());
+     }
     
 }

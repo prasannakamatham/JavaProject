@@ -49,6 +49,13 @@ public class Vehicle {
         this.plate = plate;
     }
     
-    
+    public void printMyData() {
+      
+       System.out.println("motorcycle plate is:" + getPlate());
+       System.out.println("motorcycle make is :" + getMake());
+       System.out.println("motorcycle company is :" + getCompany());
+       System.out.println("motorcycle year is :" + getYear());
+       
+    }
     
 }

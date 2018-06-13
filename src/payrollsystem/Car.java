@@ -47,4 +47,12 @@ public class Car {
         this.Year = Year;
     }
     
-   
+   public void printMyData() {
+      
+       System.out.println("car speed is:" + getSpeed());
+       System.out.println("car make is :" + getMake());
+       System.out.println("car plate is :" + getPlate());
+       System.out.println("car year is :" + getYear());
+       
+   }
+   }
