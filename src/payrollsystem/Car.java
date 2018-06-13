@@ -12,7 +12,8 @@ package payrollsystem;
 public class Car {
     private String Make;
     private String Plate;
-    private String Color;
+    private String Speed;
+    private String YearModel;
 
     public String getMake() {
         return Make;
@@ -30,13 +31,22 @@ public class Car {
         this.Plate = Plate;
     }
 
-    public String getColor() {
-        return Color;
+    public String getSpeed() {
+        return Speed;
     }
 
-    public void setColor(String Color) {
-        this.Color = Color;
-        
+    public void setSpeed(String Speed) {
+        this.Speed = Speed;
     }
+
+    public String getYearModel() {
+        return YearModel;
+    }
+
+    public void setYearModel(String YearModel) {
+        this.YearModel = YearModel;
+    }
+   
+
     
 }

@@ -10,34 +10,25 @@ package payrollsystem;
  * @author macstudent
  */
 public class Vehicle {
-    private String Make;
-    private String Plate;
-    private String Color;
+    private String make;
+    private String plate;
 
     public String getMake() {
-        return Make;
+        return make;
     }
 
-    public void setMake(String Make) {
-        this.Make = Make;
+    public void setMake(String make) {
+        this.make = make;
     }
 
     public String getPlate() {
-        return Plate;
+        return plate;
     }
 
-    public void setPlate(String Plate) {
-        this.Plate = Plate;
+    public void setPlate(String plate) {
+        this.plate = plate;
     }
-
-    public String getColor() {
-        return Color;
-    }
-
-    public void setColor(String Color) {
-        this.Color = Color;
-    }
-   
+    
     
     
 }
