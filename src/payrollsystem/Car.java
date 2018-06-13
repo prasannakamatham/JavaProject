@@ -13,7 +13,7 @@ public class Car {
     private String Make;
     private String Plate;
     private String Speed;
-    private String YearModel;
+    private int Year;
 
     public String getMake() {
         return Make;
@@ -39,14 +39,12 @@ public class Car {
         this.Speed = Speed;
     }
 
-    public String getYearModel() {
-        return YearModel;
+    public int getYear() {
+        return Year;
     }
 
-    public void setYearModel(String YearModel) {
-        this.YearModel = YearModel;
+    public void setYear(int Year) {
+        this.Year = Year;
     }
-   
-
     
-}
+   
