@@ -48,7 +48,7 @@ public class Car {
     }
     
    public void printMyData() {
-       //TODO Auto-generated method stub
+      
        System.out.println("car speed is:" + getSpeed());
        System.out.println("car make is :" + getMake());
        System.out.println("car plate is :" + getPlate());
