@@ -12,6 +12,26 @@ package payrollsystem;
 public class Vehicle {
     private String make;
     private String plate;
+    private String Company;
+    private int Year;
+
+    public String getCompany() {
+        return Company;
+    }
+
+    public void setCompany(String Company) {
+        this.Company = Company;
+    }
+
+    public int getYear() {
+        return Year;
+    }
+
+    public void setYear(int Year) {
+        this.Year = Year;
+    }
+    
+     
 
     public String getMake() {
         return make;
