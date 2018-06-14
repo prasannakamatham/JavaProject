@@ -10,28 +10,34 @@ package payrollsystem;
  * @author macstudent
  */
 public class FullTime extends Employee implements IPrintable{
-    private double salary;
-    private double bonus;
-    
-    public double calcEarnings(){
-        return salary + bonus;
+    private double Salary;
+    private double Bonus;
+
+    public FullTime(double Salary, double Bonus, String Name, int Age, double Earnings, payrollsystem.Vehicle Vehicle) {
+        super(Name, Age, Earnings, Vehicle);
+        this.Salary = Salary;
+        this.Bonus = Bonus;
     }
+    
+    
 
     public double getSalary() {
-        return salary;
+        return Salary;
     }
 
-    public void setSalary(double salary) {
-        this.salary = salary;
+    public void setSalary(double Salary) {
+        this.Salary = Salary;
     }
 
     public double getBonus() {
-        return bonus;
+        return Bonus;
     }
 
-    public void setBonus(double bonus) {
-        this.bonus = bonus;
+    public void setBonus(double Bonus) {
+        this.Bonus = Bonus;
     }
+
+
     
     @Override
     public void printMyData()

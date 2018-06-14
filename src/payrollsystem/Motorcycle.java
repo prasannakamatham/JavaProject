@@ -16,6 +16,15 @@ public class Motorcycle {
     private String Gear;
     private String color;
 
+    public Motorcycle(String Make, String Speed, String Gear, String color) {
+        this.Make = Make;
+        this.Speed = Speed;
+        this.Gear = Gear;
+        this.color = color;
+    }
+    
+    
+
     public String getMake() {
         return Make;
     }
