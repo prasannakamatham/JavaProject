@@ -18,6 +18,14 @@ package payrollsystem;
         private double earnings;
         private Vehicle vehicle;
 
+    public Employee(String name, int age, double earnings, Vehicle vehicle) {
+        this.name = name;
+        this.age = age;
+        this.earnings = earnings;
+        this.vehicle = vehicle;
+    }
+        
+
         public String getName() {
             return name;
         }

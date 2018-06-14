@@ -12,6 +12,14 @@ package payrollsystem;
 public class FullTime extends Employee implements IPrintable{
     private double salary;
     private double bonus;
+
+    public FullTime(double salary, double bonus, String name, int age, double earnings, Vehicle vehicle) {
+        super(name, age, earnings, vehicle);
+        this.salary = salary;
+        this.bonus = bonus;
+    }
+    
+    
     
     public double calcEarnings(){
         return salary + bonus;

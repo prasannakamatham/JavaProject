@@ -12,6 +12,13 @@ package payrollsystem;
 public class Intern extends Employee implements IPrintable{
     
     private String SchoolName;
+
+    public Intern(String SchoolName, String name, int age, double earnings, Vehicle vehicle) {
+        super(name, age, earnings, vehicle);
+        this.SchoolName = SchoolName;
+    }
+    
+    
     
     public String getSchoolName() {
         return SchoolName;
