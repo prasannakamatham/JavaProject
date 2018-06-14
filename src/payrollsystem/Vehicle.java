@@ -7,7 +7,7 @@ package payrollsystem;
 
 /**
  *
- * @author macstudent
+ * @author Akshay
  */
 public class Vehicle {
     private String make;

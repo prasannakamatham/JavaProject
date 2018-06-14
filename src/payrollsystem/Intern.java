@@ -7,7 +7,7 @@ package payrollsystem;
 
 /**
  *
- * @author macstudent
+ * @author Anvesh
  */
 public class Intern extends Employee implements IPrintable{
     
@@ -30,7 +30,10 @@ public class Intern extends Employee implements IPrintable{
     
     @Override
     public void printMyData(){
-        
+         System.out.println("Name:"+this.getName());
+         System.out.println("year of Birth:"+this.CalcBirthYear());
+         System.out.println("Employee has no Vehicle\nEmployee is Intern\n\tschool:"+ this.SchoolName);
+         System.out.println("Earnings:"+this.getEarnings());
     }
     
     
