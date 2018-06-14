@@ -11,6 +11,11 @@ package payrollsystem;
  */
 public class FixedBasedPartTime extends PartTime implements IPrintable {
     private double FixedAmount;
+
+    FixedBasedPartTime() {
+         super();
+    }
+
     
     public double calcEarnings() {
         double ear = super.getRate() * super.getHoursWorked();
@@ -49,6 +54,10 @@ public class FixedBasedPartTime extends PartTime implements IPrintable {
         System.out.println("FixedBasedPartTime.ear+" + this.FixedAmount);	
 
 	}
+
+    void setVehicle(Motorcycle mt1) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
         
         
     }

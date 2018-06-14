@@ -12,6 +12,12 @@ package payrollsystem;
 public class CommissionBasedPartTime extends PartTime implements IPrintable {
     private double commissionPercent;
 
+    CommissionBasedPartTime() {
+        super();
+    }
+
+   
+
     public double getCommissionPercent() {
         return commissionPercent;
     }
@@ -50,6 +56,10 @@ public class CommissionBasedPartTime extends PartTime implements IPrintable {
         
         
 
+    }
+
+    void setVehicle(Car vh2) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
         
     

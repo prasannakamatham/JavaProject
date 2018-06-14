@@ -17,12 +17,17 @@ package payrollsystem;
         private int Age;
         private double Earnings;
         private Vehicle Vehicle;
+        
+        public Employee(){
+            
+        }
 
     public Employee(String Name, int Age, double Earnings, Vehicle Vehicle) {
         this.Name = Name;
         this.Age = Age;
         this.Earnings = Earnings;
         this.Vehicle = Vehicle;
+        
     }
 
     

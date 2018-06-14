@@ -22,6 +22,10 @@ public class Motorcycle {
         this.Gear = Gear;
         this.color = color;
     }
+
+    Motorcycle() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     
     
 

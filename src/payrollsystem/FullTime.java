@@ -19,6 +19,9 @@ public class FullTime extends Employee implements IPrintable{
         this.Bonus = Bonus;
     }
 
+    FullTime() {
+        super();
+    }
     
 
     public double getSalary() {
@@ -51,5 +54,9 @@ public class FullTime extends Employee implements IPrintable{
         System.out.println("Employee is FullTime\n\tSalary:"+this.Salary);
         System.out.println("Bonus:"+this.Bonus);
         System.out.println("Earnings:"+this.getEarnings());
+    }
+
+    void setVehicle(Car vh) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 }
