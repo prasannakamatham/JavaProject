@@ -17,8 +17,7 @@ public class Intern extends Employee implements IPrintable{
         super(name, age, earnings, vehicle);
         this.SchoolName = SchoolName;
     }
-    
-    
+   
     
     public String getSchoolName() {
         return SchoolName;

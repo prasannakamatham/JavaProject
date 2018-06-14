@@ -13,55 +13,58 @@ package payrollsystem;
     public abstract class Employee implements IPrintable
     {
         
-        private String name;
-        private int age;
-        private double earnings;
-        private Vehicle vehicle;
+        private String Name;
+        private int Age;
+        private double Earnings;
+        private Vehicle Vehicle;
 
-    public Employee(String name, int age, double earnings, Vehicle vehicle) {
-        this.name = name;
-        this.age = age;
-        this.earnings = earnings;
-        this.vehicle = vehicle;
+    public Employee(String Name, int Age, double Earnings, Vehicle Vehicle) {
+        this.Name = Name;
+        this.Age = Age;
+        this.Earnings = Earnings;
+        this.Vehicle = Vehicle;
+    }
+
+    
+
+    public String getName() {
+        return Name;
+    }
+
+    public void setName(String Name) {
+        this.Name = Name;
+    }
+
+    public int getAge() {
+        return Age;
+    }
+
+    public void setAge(int Age) {
+        this.Age = Age;
+    }
+
+    public double getEarnings() {
+        return Earnings;
+    }
+
+    public void setEarnings(double Earnings) {
+        this.Earnings = Earnings;
+    }
+
+    public Vehicle getVehicle() {
+        return Vehicle;
+    }
+
+    public void setVehicle(Vehicle Vehicle) {
+        this.Vehicle = Vehicle;
     }
         
 
-        public String getName() {
-            return name;
-        }
-
-        public void setName(String name) {
-            this.name = name;
-        }
-
-        public int getAge() {
-            return age;
-        }
-
-        public void setAge(int age) {
-            this.age = age;
-        }
-
-        public double getEarnings() {
-            return earnings;
-        }
-
-        public void setEarnings(double earnings) {
-            this.earnings = earnings;
-        }
-
-        public Vehicle getVehicle() {
-            return vehicle;
-        }
-
-        public void setVehicle(Vehicle vehicle) {
-            this.vehicle = vehicle;
-        }
-        
+    
         
         public int CalcBirthYear()
         {
-            return 2018-age;
+            return 2018-Age;
         }
      
         
