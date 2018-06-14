@@ -9,8 +9,7 @@ package payrollsystem;
  *
  * @author macstudent
  */
-public class Employee {
-    
+
     public abstract class Employee implements IPrintable
     {
         
@@ -59,4 +58,4 @@ public class Employee {
      
         
     }
-}
+
