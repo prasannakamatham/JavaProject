@@ -9,6 +9,8 @@ package payrollsystem;
  *
  * @author macstudent
  */
-public class IPrintable {
+public interface IPrintable {
+    
+    public void printMyData();
     
 }

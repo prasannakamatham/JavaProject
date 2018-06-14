@@ -9,6 +9,28 @@ package payrollsystem;
  *
  * @author macstudent
  */
-public class Intern {
+public class Intern extends Employee implements IPrintable{
+    
+    private String SchoolName;
+
+    public Intern(String SchoolName, String name, int age, double earnings, Vehicle vehicle) {
+        super(name, age, earnings, vehicle);
+        this.SchoolName = SchoolName;
+    }
+   
+    
+    public String getSchoolName() {
+        return SchoolName;
+    }
+
+    public void setSchoolName(String SchoolName) {
+        this.SchoolName = SchoolName;
+    }
+    
+    @Override
+    public void printMyData(){
+        
+    }
+    
     
 }
