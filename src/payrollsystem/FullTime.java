@@ -7,7 +7,7 @@ package payrollsystem;
 
 /**
  *
- * @author macstudent
+ * @author Anvesh
  */
 public class FullTime extends Employee implements IPrintable{
     private double Salary;

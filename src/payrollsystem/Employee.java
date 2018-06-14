@@ -7,7 +7,7 @@ package payrollsystem;
 
 /**
  *
- * @author macstudent
+ * @author Anvesh
  */
 
     public abstract class Employee implements IPrintable

@@ -7,7 +7,7 @@ package payrollsystem;
 
 /**
  *
- * @author macstudent
+ * @author Anvesh
  */
 public class Intern extends Employee implements IPrintable{
     
