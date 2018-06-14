@@ -15,6 +15,15 @@ public class Car {
     private String Speed;
     private int Year;
 
+    public Car(String Make, String Plate, String Speed, int Year) {
+        this.Make = Make;
+        this.Plate = Plate;
+        this.Speed = Speed;
+        this.Year = Year;
+    }
+    
+    
+
     public String getMake() {
         return Make;
     }

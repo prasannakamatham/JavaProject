@@ -15,6 +15,15 @@ public class Vehicle {
     private String Company;
     private int Year;
 
+    public Vehicle(String make, String plate, String Company, int Year) {
+        this.make = make;
+        this.plate = plate;
+        this.Company = Company;
+        this.Year = Year;
+    }
+    
+    
+
     public String getCompany() {
         return Company;
     }
