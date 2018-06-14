@@ -17,6 +17,12 @@ public class FixedBasedPartTime extends PartTime implements IPrintable {
         double commission = FixedAmount;
         return ear+commission;
     }
+
+    public FixedBasedPartTime(double FixedAmount, double Rate, int HoursWorked, String Name, int Age, double Earnings, payrollsystem.Vehicle Vehicle) {
+        super(Rate, HoursWorked, Name, Age, Earnings, Vehicle);
+        this.FixedAmount = FixedAmount;
+    }
+    
     
     public void setFixedAmount(double FixedAmount) {
         this.FixedAmount = FixedAmount;

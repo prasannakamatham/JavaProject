@@ -10,20 +10,20 @@ package payrollsystem;
  * @author macstudent
  */
 public class CommissionBasedPartTime extends PartTime implements IPrintable {
-    private int commissionPercent;
+    private double commissionPercent;
 
-    public int getCommissionPercent() {
+    public double getCommissionPercent() {
         return commissionPercent;
     }
 
-    public void setCommissionPercent(int commissionPercent) {
+    public void setCommissionPercent(double commissionPercent) {
         this.commissionPercent = commissionPercent;
     }
 
-    public CommissionBasedPartTime(int commissionPercent) {
+    public CommissionBasedPartTime(double commissionPercent, double Rate, int HoursWorked, String Name, int Age, double Earnings, payrollsystem.Vehicle Vehicle) {
+        super(Rate, HoursWorked, Name, Age, Earnings, Vehicle);
         this.commissionPercent = commissionPercent;
     }
-    
     
     
     public double calcEarnings() {

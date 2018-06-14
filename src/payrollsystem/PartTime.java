@@ -13,6 +13,14 @@ public abstract class PartTime extends Employee implements IPrintable {
     
     private double Rate;
     private int HoursWorked;
+
+    public PartTime(double Rate, int HoursWorked, String Name, int Age, double Earnings, payrollsystem.Vehicle Vehicle) {
+        super(Name, Age, Earnings, Vehicle);
+        this.Rate = Rate;
+        this.HoursWorked = HoursWorked;
+    }
+    
+    
     
 
     public double getRate() {
@@ -31,12 +39,8 @@ public abstract class PartTime extends Employee implements IPrintable {
         this.HoursWorked = HoursWorked;
     }
     
-    public void settype()
-    {
-        
-    }
-
     
+
 }
 
 
