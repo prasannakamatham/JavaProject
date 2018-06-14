@@ -7,7 +7,7 @@ package payrollsystem;
 
 /**
  *
- * @author macstudent
+ * @author Prasanna
  */
 public class CommissionBasedPartTime extends PartTime implements IPrintable {
     private double commissionPercent;

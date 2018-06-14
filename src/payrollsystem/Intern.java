@@ -13,11 +13,12 @@ public class Intern extends Employee implements IPrintable{
     
     private String SchoolName;
 
-    public Intern(String SchoolName, String name, int age, double earnings, Vehicle vehicle) {
-        super(name, age, earnings, vehicle);
+    public Intern(String SchoolName, String Name, int Age, double Earnings, payrollsystem.Vehicle Vehicle) {
+        super(Name, Age, Earnings, Vehicle);
         this.SchoolName = SchoolName;
     }
-   
+
+    
     
     public String getSchoolName() {
         return SchoolName;

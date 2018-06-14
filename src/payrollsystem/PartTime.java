@@ -7,7 +7,7 @@ package payrollsystem;
 
 /**
  *
- * @author macstudent
+ * @author Prasanna
  */
 public abstract class PartTime extends Employee implements IPrintable {
     

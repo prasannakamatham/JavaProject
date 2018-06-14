@@ -7,7 +7,7 @@ package payrollsystem;
 
 /**
  *
- * @author macstudent
+ * @author Prasanna
  */
 public class FixedBasedPartTime extends PartTime implements IPrintable {
     private double FixedAmount;

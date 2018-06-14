@@ -18,7 +18,7 @@ public class FullTime extends Employee implements IPrintable{
         this.Salary = Salary;
         this.Bonus = Bonus;
     }
-    
+
     
 
     public double getSalary() {
