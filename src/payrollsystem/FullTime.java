@@ -42,6 +42,14 @@ public class FullTime extends Employee implements IPrintable{
     @Override
     public void printMyData()
     {
-        System.out.print(this.getName() +"" +""+"");
+        System.out.println("name:"+this.getName());
+        System.out.println("Year of Birth:"+this.CalcBirthYear());
+        System.out.println("Employee has a C\n\tMaker:"+getVehicle().getMake());
+        System.out.println("Registration Number:"+getVehicle().getPlate());
+        System.out.println("Type of Company:"+getVehicle().getCompany());
+        System.out.println("Year:"+getVehicle().getYear());
+        System.out.println("Employee is FullTime\n\tSalary:"+this.Salary);
+        System.out.println("Bonus:"+this.Bonus);
+        System.out.println("Earnings:"+this.getEarnings());
     }
 }

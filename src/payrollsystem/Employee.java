@@ -67,6 +67,11 @@ package payrollsystem;
             return 2018-Age;
         }
      
-        
+        @Override
+        public void printMyData(){
+            System.out.println("Name:"+this.getName());
+            System.out.println("year of Birth:"+this.CalcBirthYear());
+            System.out.println("Employee has no Vehicle\nEmployee is Intern\n\tschool");
+        }
     }
 
