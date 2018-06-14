@@ -14,46 +14,44 @@ public class PayrollSystem {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
-        
-        
-        Intern i= new Intern();
-
    
+        
+   public static void main(String[] args) {
 
-		i.setAge(23);i.setName("Caio");i.setSchoolName("lambton");i.setEarnings(1200);
+    
+
+        Intern i1 = new Intern();
+
+		i1.setAge(23);i1.setName("Akshay");i1.setSchoolName("lambton");i1.setEarnings(2000);
 
 		
-
-		i.printMyData();
+                i1.printMyData();
 
 		System.out.println("=========================================");
 
 		
 
-		FullTime ft = new FullTime();
+		FullTime ft1 = new FullTime();
 
 		Car vh = new Car();
 
-		ft.setName("Andy");ft.setAge(35);ft.setVehicle(vh);ft.setSalary(4700.00);ft.setBonus(570.00);
+		ft1.setName("Anvesh");ft1.setAge(24);ft1.setVehicle(vh);ft1.setSalary(1500.00);ft1.setBonus(200.50);
 
-		vh.setMake("B M W X6");vh.setPlate("ABC 123");vh.setYear(2010);
-
-		vh.setSpeed("120");
+		vh.setMake("Toyota");vh.setPlate("AP07 7483");vh.setSpeed("140");vh.setYear(2010);
 
 		
 
-		/*ft.printMyData();
+		ft1.printMyData();
 
 		System.out.println("=========================================");
 
-		CommissionBasedPartTime cb = new CommissionBasedPartTime();
+		CommissionBasedPartTime cb1 = new CommissionBasedPartTime();
 
 		Car vh2 = new Car();
 
-		cb1.setName("Ellen");cb1.setAge(22);cb1.setVehicle(vh2);cb1.setRate(30);cb1.setHoursworked(10);cb1.setCommissionPercent(15);
+		cb1.setName("Vijay");cb1.setAge(35);cb1.setVehicle(vh2);cb1.setRate(25);cb1.setHoursWorked(8);cb1.setCommissionPercent(10);
 
-		vh2.setMaker("Toyota");vh2.setRegPlate("CDE 456");vh2.setTypeOfTransmission("Automatic");vh2.setColor("Black");
+		vh2.setMake("Audi");vh2.setPlate("TS99 0239");vh2.setSpeed("150");vh2.setYear(2016);
 
 		cb1.printMyData();
 
@@ -63,20 +61,16 @@ public class PayrollSystem {
 
 		
 
-		FixedBasedPartTime fpt1 = new FixedBasedPartTime();
+		FixedBasedPartTime fbpt1 = new FixedBasedPartTime();
 
 		Motorcycle mt1 = new Motorcycle();
 
-		fpt1.setName("Bob");fpt1.setAge(30);fpt1.setVehicle(mt1);mt1.setMaker("Harley DavidSon");mt1.setRegPlate("XYZ 000");mt1.setTypeOfTransmission("Manual");
+		fbpt1.setName("Prem");fbpt1.setAge(28);fbpt1.setVehicle(mt1);mt1.setMake("Ducati");mt1.setSpeed("110");mt1.setGear("5");
 
-		mt1.setColor("Black");fpt1.setRate(10);fpt1.setHoursworked(20);fpt1.setFixedAmount(75);
+		mt1.setColor("Black");fbpt1.setRate(10);fbpt1.setHoursWorked(20);fbpt1.setFixedAmount(75);
 
-		fpt1.printMyData();*/
+		fbpt1.printMyData();
 
     }
 
-
-
-
-    
 }
