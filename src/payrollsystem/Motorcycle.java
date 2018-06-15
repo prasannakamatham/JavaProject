@@ -7,7 +7,7 @@ package payrollsystem;
 
 /**
  *
- * @author macstudent
+ * @author Akshay
  */
 public class Motorcycle {
     
